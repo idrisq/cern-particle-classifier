@@ -66,15 +66,11 @@ Proje, aşağıdaki adımları izlemiştir:
 ## Sonuçlar ve Değerlendirme
 
 İyileştirilmiş modelimiz, doğrulama seti üzerinde **XX.XX% ROC AUC Skoru** elde etmiştir. Karışıklık Matrisi, modelin özellikle sinyal olaylarını yakalama (recall) yeteneğinin, `scale_pos_weight` parametresi sayesinde belirgin şekilde arttığını göstermektedir.
-
-*(Buraya `reports/figures/` klasörüne kaydettiğin **dengelenmiş modelin karışıklık matrisi** görselini ekle)*
 ![Dengelenmiş Karışıklık Matrisi](reports/figures/confusion_matrix_balanced.png)
 
 ## Özellik Önemliliği Analizi
 
 Modelimizin karar verirken en çok hangi fiziksel değişkenlere güvendiğini anlamak için özellik önemliliği analizi yapılmıştır. Sonuçlar, fiziksel sezgilerle uyumlu olarak, `DER_mass_MMC` (Higgs bozonu kütle tahmini) gibi yüksek seviyeli türetilmiş özelliklerin en ayırt edici bilgiler olduğunu göstermektedir.
-
-*(Buraya `reports/figures/` klasörüne kaydettiğin **özellik önemliliği grafiği** görselini ekle)*
 ![Özellik Önemliliği](reports/figures/feature-importance.png)
 
 ## Gelecek Geliştirmeler

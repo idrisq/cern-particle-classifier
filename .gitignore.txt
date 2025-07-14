@@ -1,0 +1,12 @@
+# Sanal ortam
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Veri dosyaları
+data/
+
+# Sistem dosyaları
+.DS_Store
