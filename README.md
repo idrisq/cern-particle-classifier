@@ -41,7 +41,7 @@ Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları i
 
 ```bash
 # 1. Depoyu klonlayın
-git clone [https://github.com/KULLANICI_ADIN/cern-particle-classifier.git](https://github.com/idrisq/cern-particle-classifier)
+git clone [https://github.com/idrisq/cern-particle-classifier.git](https://github.com/idrisq/cern-particle-classifier)
 cd cern-particle-classifier
 
 # 2. Sanal ortam oluşturun ve aktive edin
@@ -73,7 +73,3 @@ Proje, aşağıdaki adımları izlemiştir:
 Modelimizin karar verirken en çok hangi fiziksel değişkenlere güvendiğini anlamak için özellik önemliliği analizi yapılmıştır. Sonuçlar, fiziksel sezgilerle uyumlu olarak, `DER_mass_MMC` (Higgs bozonu kütle tahmini) gibi yüksek seviyeli türetilmiş özelliklerin en ayırt edici bilgiler olduğunu göstermektedir.
 ![Özellik Önemliliği](reports/figures/feature-importance.png)
 
-## Gelecek Geliştirmeler
-- Model performansını daha da artırmak için `Optuna` veya `GridSearchCV` gibi araçlarla hiperparametre optimizasyonu yapılabilir.
-- `LightGBM` veya basit bir `PyTorch`/`TensorFlow` sinir ağı gibi farklı model mimarileri denenebilir.
-- Modelin tahminlerini sunan basit bir `Flask`/`FastAPI` arayüzü oluşturulabilir."# cern-particle-classifier" 
